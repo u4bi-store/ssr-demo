@@ -15,6 +15,7 @@ import './App.css';
 import { connect } from 'react-redux';
 import { getMockData } from './providers/redux/actions';
 
+import 'semantic-ui-css/semantic.min.css';
 
 class App extends React.Component {
 

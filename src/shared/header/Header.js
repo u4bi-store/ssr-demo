@@ -3,6 +3,8 @@ import './Header.css';
 
 import { connect } from 'react-redux';
 
+import { Button } from 'semantic-ui-react';
+
 class Header extends React.Component {
 
   render() {
@@ -16,6 +18,7 @@ class Header extends React.Component {
           <h3> { mockData.title } </h3>
           <h3> { mockData.subTitle } </h3>
           <h3> { mockData.content }</h3>
+          <Button>Click Here</Button>
       </div>
     );
   }
