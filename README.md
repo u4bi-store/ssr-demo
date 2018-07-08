@@ -13,6 +13,8 @@ yarn install
 yarn start
 ```
 
+### Commands
+
 `yarn start`
 
 `yarn build`
@@ -20,6 +22,16 @@ yarn start
 `yarn start:prod`
 
 `yarn test`
+
+### URI Endpoints
+
+`/`
+
+`/sign`
+
+`/login`
+
+`/board/detail/:no`
 
 ___
 
